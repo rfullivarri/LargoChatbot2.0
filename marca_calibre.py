@@ -10,7 +10,7 @@ import pandas as pd
 
 def marca_calibre(frases):
     #frases= input("Marca calibre de que producto?: ")
-    df = pd.read_excel("/Users/ramirofernandezdeullivarri/opt/rulo/newvenv/Chatbot/marca_calibre.xlsx")
+    df = pd.read_excel("marca_calibre.xlsx")
     nlp = spacy.load("es_core_news_sm", disable=['ner'])
     documentos = pickle.load(open('documentos.pkl', 'rb'))
     clasex = []
