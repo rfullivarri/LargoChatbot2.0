@@ -10,7 +10,7 @@ nlp = spacy.load("es_core_news_sm", disable = ['ner'])
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.models import load_model
 
-intenciones= json.loads(open('/Users/ramirofernandezdeullivarri/opt/rulo/newvenv/Chatbot/intenciones.json').read())
+intenciones= json.loads(open('XXXXXXXXXX).read())
 #marcacalibre= pd.read_excel("/Users/ramirofernandezdeullivarri/opt/rulo/newvenv/Chatbot/marca_calibre.xlsx")
 
 palabras= pickle.load(open('palabras.pkl', 'rb'))
@@ -19,7 +19,7 @@ clases= pickle.load(open('clases.pkl', 'rb'))
 
 
 #model = Sequential()
-newmodel= load_model('/Users/ramirofernandezdeullivarri/opt/rulo/newvenv/Chatbot/chatbotES3.h5')
+newmodel= load_model('XXXXXXXXX.h5')
 newmodel.summary()
 
 #frases ="Hola quiero una Stella Artois"
@@ -91,12 +91,6 @@ while True:
     frases= input("YO: ")
     print(request(frases))
 
-# while True:
-#     frases= input("YO: ")
-#     request(frases)
-#     return_list = tipo_prediccion(frases)
-#     resultado= get_response(return_list, intenciones)
-#     print(resultado)
 
 print(bolsa_de_palabras(frases))
 
