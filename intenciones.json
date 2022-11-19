@@ -1,0 +1,53 @@
+{"intents": [
+    {"tag": "Saludo",
+      "patterns": ["Hola", "Buenas!", "Holis", "Necesito ayuda", "Q onda?", "Hey", "Buen dia!"],
+      "responses": ["Hola!", "Que bueno verte!", "Hola, con que puedo ayudarte?","Hola! todo bien y vos?"],
+      "context_set": ""
+    },
+    {"tag": "Despedida",
+      "patterns": ["Chau?", "Nos vemos!", "Adios", "Listo, gracias!", "Perfecto gracias", "bye"],
+      "responses": ["Buena charla! nos vemos", "Nos estamos Hablando", "Goodbye!","Chau!"],
+      "context_set": ""
+    },
+    {"tag": "Acciones",
+      "patterns": ["acciones?", "acciones tengo?", "companias invierto?", " acciones de bolsa?"],
+      "responses": ["Estas siguiendo estas acciones: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+      "context_set": ""
+    },
+    {"tag": "Marcas",
+      "patterns": ["Quilmes", "Brahma", "Andes Origen", "Budweisser","Stella Artois","Corona","Patagonia","Goose Island","Michelob Ultra","Pepsi","Seven","Mirinda","Glaciar","Nestle","Eco"],
+      "responses": ["Uff simpre estoy para una buena birra"],
+      "context_set": ""
+    },
+    {"tag": "Calibres",
+      "patterns": ["Litro","Lata","Barril", "500", "354", "410", "710"],
+      "responses": ["Excelente eleccion"],
+      "context_set": ""
+    },
+    {"tag": "Negocio",
+      "patterns": ["cerveza","ung","aguas", "gaseosas", "vino"],
+      "responses": ["apa la papa"],
+      "context_set": ""
+    },
+    {"tag": "Creador",
+      "patterns": ["quien creo?","quien dueño?","tu creador quien es?"],
+      "responses": ["Rulo me creo","Soy un invento de Rulo","Son fruto del tiempo al pedo de rulo","soy el primer chatbot con inteligencia artificial que hizo rulo"],
+      "context_set": ""
+    },
+    {"tag": "Identidad",
+     "patterns": ["quien sos?","tu nombre?","sos real?","que sos?","como llamar?"],
+      "responses": ["Soy Largo 2.0 me creo Rulo", "Soy Largo 2.0 un chatbot con AI", "Soy Largo 2.0! El primer chatbot con Inteligencia Artificial  de Rulo"],
+      "context_set": ""
+    },
+    {"tag": "Actividades",
+      "patterns": ["podes Hacer?","sabes hacer?","para que servis?","haces algo?"],
+      "responses": ["Recien estoy aprendiendo a hablar :/", "Pocas cosas, tengo pocos dias de vida", "No Mucho :/ pero estoy aprendiendo un monton de cosas!"],
+      "context_set": ""
+    },
+    {"tag": "Secretos",
+      "patterns": ["sabes secreto?","como hicieron?, sabes secreto de vida?"],
+      "responses": ["No te puedo decir mildis"],
+      "context_set": ""
+    }
+  ]
+  }
